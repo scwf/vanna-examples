@@ -23,7 +23,6 @@ class MyVanna(ChromaDB_VectorStore, Ollama):
 vn = MyVanna(config={
     'base_url': 'http://localhost:11434',  # Ollama服务地址，确保已启动Ollama服务
     # 'model': 'qwq:32b'  # 使用qwq-32b模型
-    # 'model': 'deepseek-r1:8b-llama-distill-fp16'  # 使用deepseek蒸馏版
     'model': 'gemma3:12b'  # gemma3-12b模型
 
 })

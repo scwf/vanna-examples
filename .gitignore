@@ -22,3 +22,4 @@ milvus.db
 .milvus.db.lock
 .venv
 .cursor
+mykey.config
